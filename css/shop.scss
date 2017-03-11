@@ -1,0 +1,994 @@
+@charset "utf-8";
+html{
+    font-size:62.5%;
+    background-color:#f9f8f6;
+}
+
+@mixin fontsize($size:24,$base:10){
+    font-size:$size + px;
+    font-size:($size/$base)*1rem;
+    
+}
+
+
+
+#hedear_in{
+    padding-top:4px;
+    padding-bottom:10px;
+}
+
+#cover_area{
+    background-size:cover;
+}
+
+
+@media(min-width:550px){
+.logo .u-max-full-width{
+    width:145px;
+    margin-top:0;
+    margin-bottom:30px;
+    
+}
+.navi {
+    margin-top:0;
+    margin-bottom:10px;
+    float:right;
+}
+}
+
+
+.four{
+    background-color:#ffffff;
+    padding:10px;
+    margin:1px;
+    width:33%;
+}
+
+.six{
+    background-color:#ffffff;
+    padding:0;
+    margin:0 4px 4px 0;
+    
+}
+
+.flex-container{
+    -webkit-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+
+.item_name{
+    font-size:11px;
+}
+p{
+    font-size:11px;
+} 
+
+   .new_items  .u-full-width{
+    padding:15px 0 15px 0;
+        
+    }
+    .popular_items .u-full-width{
+    padding:20px 0 10px 0;
+        
+    }
+    .shopping_guide .u-full-width{
+    padding:22px 0 15px 0;
+        
+    }
+    .shopping-guide{
+    display:flex;
+    flex-direction:row;
+    
+    }
+    .six{
+        padding:0 15px 15px 15px;
+    }
+    .six div{
+        color:#887f69;
+        font-size:16px;
+        font-weight:600;
+        padding:15px 15px 15px 0px;
+    }
+    
+    .shikaku{
+       color:#887f69; 
+       list-style-type:square;
+       font-size:12px;
+       font-weight:600;
+       margin:0;
+        }
+        .shikaku:before{
+    content:"■";
+    font-size:20px;
+}
+
+    
+    .list{
+    font-size:11px;
+    padding:0;
+    margin:0;
+    text-align:left;
+    }
+    .search{
+        background-color:#ffffff;
+        padding:0 10px 0 0;
+        margin-bottom:-15px;
+    }
+    .item_search{
+        font-size:12px;
+        font-weight:600;
+        color:#887f69;
+        padding:20px 0 0 25px;
+    }
+    #searchform{
+        width:90%;
+        height:24px;
+        display:block;
+        padding:0 5px 30px 0;
+        margin-left:20px;
+        font-style:oblique;
+    }
+    #keywords{
+        width:90%;
+        height:30px;
+        border:1px solid #f9f8f6;
+        background-color:#f9f8f6;
+        font-size:12px;
+        background-image:url("../images/top/search_icon.png");
+        background-repeat:no-repeat;
+        background-position:95%;
+    }
+    
+    
+    
+    .pagelink{
+        background-color:#887f69;
+        background-image:url("../images/top/next_icon.png");
+        background-repeat:no-repeat;
+        background-position:95%;
+        margin-bottom:10px;
+    }
+    .pagelink .u-max-full-width{
+        padding:18px 10px 10px 10px;
+    }
+   .categories{
+       background-color:#887f69;
+       background-image:url("../images/top/down_icon.png");
+       background-repeat:no-repeat;
+       background-position:95%;
+       margin:3px 0 0 0;
+   }
+   .categories .u-max-full-width{
+       padding:18px 10px 10px 10px;
+   }
+   
+   .categorie_name{
+       background-color:#ffffff;
+       background-image:url("../images/top/next_icon_gray.png");
+       background-repeat:no-repeat;
+       background-position:95%;
+       font-size:11px;
+       border-bottom:1px solid #f9f8f6;
+       padding:18px 0 12px 10px;
+   }
+   .categorie_name a{
+       text-decoration:none;
+       color:#000000;
+   }
+   .about{
+       background-color:#887f69;
+       margin-top:10px;
+   }
+   .about .u-max-full-width{
+       padding:20px 10px 10px 10px;
+       
+   }
+   .aboutnakami{
+       background-color:#ffffff;
+       
+   }
+   .aboutimg .u-max-full-width{
+       padding:10px;
+   }
+   .omise{
+       
+       font-size:12px;
+       margin-left:5px;
+   }
+   .morebtn{
+       margin:10px 10px 10px 25%;
+       padding-bottom:10px;
+   }
+   
+   .shopinfo{
+       background-color:#887f69;
+       }
+   .shopinfo .u-max-full-width{
+       margin:20px 0 10px 10px;
+   }
+   .shopinfonakami{
+       background-color:#ffffff;
+   }
+   .shopinfoimg .u-max-full-width{
+       margin:10px;
+       padding-right:20px;
+   }
+   .pagetop{
+       margin:50px 0 10px 800px;
+   }
+    .sp_menu_toggle{
+       border-top:1px solid #887f69;
+       width:885px;
+       padding-top:20px;
+       text-align:center;
+      
+   }
+    .sp_menu_toggle li {
+       font-size:12px;
+        display:inline;
+       
+       
+   }
+    .sp_menu_toggle li a{
+       color:#000000;
+       text-decoration:none;
+   }
+   
+   .list{
+       margin-left:32%;
+   }
+.list li   {
+       font-size:12px;
+       display:inline;
+       
+       
+   }
+   .list li a{
+       text-decoration:none;
+       color:#000000;
+   }
+   .copy{
+       margin-left:40%;
+       font-size:5px;
+       font-weight:100;
+       color:#b0b0b0;
+       
+   }
+.pankuzu_list ul{
+    border:1px solid #e2ddd4;
+    background-color:#e2ddd4;
+    background-image:url("../images/list/home_icon.png");
+       background-repeat:no-repeat;
+       background-position:8px;
+       
+       padding:3px 0 3px 28px;
+       margin-bottom:10px;
+}
+.pankuzu_list ul li {
+    font-size:11px;
+    font-weight:100;
+    font-stretch:expended;
+    display:inline;
+}
+   
+.pankuzu_list ul li a{
+    
+    text-decoration:none;
+    color:#887f69;
+     
+    
+}
+.srash{
+    color:#887f69;
+}
+.srash:before{
+    content:"/";
+    
+}
+.btn .twelve p{
+    display:inline;
+    margin-top:15px;
+}
+.back{
+    border:1px solid #887f69;
+    background-color:#887f69;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing:1px;
+    padding:5px 30px;
+    float:left;
+}
+.next{
+    border:1px solid #887f69;
+    background-color:#887f69;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing:1px;
+    padding:5px 30px;
+    float:right;
+}
+.products{
+    background-color:#ffffff;
+    padding-bottom:40px;
+    margin-bottom:20px;
+   
+}
+.product_name{
+     
+    border-bottom:1px solid #e2ddd4;
+    width:87%;
+    height:50px;
+    margin-bottom:20px;
+    margin-left:40px;
+    padding-top:30px;
+    
+}
+
+
+.shouhinmei{
+    font-weight:bold;
+    letter-spacing:2px;
+    float:left;
+}
+.shouhinnumber{
+  float:right;
+    font-weight:100;
+    font-size:11px;
+    letter-spacing:0;
+    color:#b0b0b0;
+    padding-top:10px;
+}
+
+
+
+
+
+
+
+.img{
+     display:-webkit-flex;
+    display:flex;
+}
+.display_img{
+    margin-left:40px;
+   
+}
+.display_img .u-max-full-width{
+    width:100%;
+}
+
+
+.list_img{
+    width:220px;
+}
+.list_img .flex-container{
+    -webkit-flex-wrap:wrap;
+    flex-wrap:wrap;
+   display:-webkit-flex;
+    display:flex;
+    flex-direction:row
+}
+
+
+.list_img .flex-container  li{
+    list-style:none;
+     display:-webkit-flex;
+    display:flex;
+    width:50%;
+    margin-right:-36px;
+    margin-left:15px;
+    margin-bottom:15px;
+}
+.list_img .flex-container li .u-max-full-width{
+    width:64%;
+    height:100%;
+    
+}
+
+.midashi{
+    margin-bottom:10px;
+    margin-top:-25px;
+    margin-left:40px;
+    padding-top:10px;
+    border-top:1px solid #e2ddd4;
+    width:87%;
+}
+.table{
+    border:1px solid #e2ddd4;
+    border-collapse:collapse;
+    margin-left:40px;
+    width:87%;
+}
+.table .color{
+    border:1px solid #e2ddd4;
+    background-color:#f9f8f6;
+    color:#887f69;
+    font-size:12px;
+    width:33.5%;
+    text-align:center;
+}
+.table .size{
+    border:1px solid #e2ddd4;
+    background-color:#f9f8f6;
+    color:#887f69;
+    font-size:12px;
+    width:25%;
+    text-align:center;
+}
+.table .white{
+    border:1px solid #e2ddd4;
+    background-color:#ffffff;
+    color:#887f69;
+　　font-size:12px;
+　　width:50%;
+}
+.table .white .box{
+    border:0.5px solid #e2ddd4;
+}
+.check{
+    margin-left:41%;
+    margin-bottom:-10px;
+    
+}
+.midashi2{
+    margin-left:40px;
+    margin-top:-10px;
+    padding:15px 0;
+    width:50%;
+    border-bottom:1px solid #e2ddd4;
+    border-top:1px solid #e2ddd4;
+   
+}
+.price{
+    overflow:hidden;
+    padding:15px 0;
+}
+.cart{
+    float:right;
+    position:relative; top:-112px; right:48px;
+}
+.senyen{
+    overflow:hidden;
+    margin-top:-42px;
+    margin-left:26%;
+    margin-right:5%;
+    padding:5px 0;
+}
+.yen{
+    font-style:oblique;
+    float:left;
+    color:#9d1a2d;
+    font-size:12px;
+}
+.sen{
+    font-style:oblique;
+    float:left;
+    color:#9d1a2d;
+    font-size:20px;
+    margin-top:-10px;
+   
+}
+.tax{
+    font-style:oblique;
+    font-size:12px;
+}
+.quantity{
+    margin-left:40px;
+    margin-top:-10px;
+    padding-top:-8px;
+    border-bottom:1px solid  #e2ddd4;
+    width:88%;
+    height:35px;
+}
+.number{
+    margin-left:120px;
+   position:relative;
+    margin-top:-35px;
+    
+
+}
+.setsumei{
+    font-weight:bold;
+    font-size:18px;
+    color:#887f69;
+    margin-left:40px;
+    padding-top:25px;
+    padding-bottom:10px;
+    width:88%;
+    border-bottom:1px solid #e2ddd4;
+}
+.shikaku2:before{
+    content:"■";
+    color:#887f69;
+    font-size:30px;
+}
+.shikaku2{
+    font-size:18px;
+    font-weight:bold;
+    color:#887f69;
+    margin-left:40px;
+}
+.setsumei_text{
+    margin-left:40px;
+    width:89%;
+    font-size:15.5px;
+}
+.setsumeibun{
+    color:#887f69;
+    font-size:12px;
+}
+
+
+
+
+
+
+@media (max-width:830px){
+    .cart{
+        float:none;
+    margin-left:25px;
+   position:relative; top:10px; left:22px;
+   overflow:hidden;
+    }
+    .quantity{
+    
+    width:50%;
+    
+}
+.number{
+    margin-left:85px;
+   position:relative;
+    margin-top:-35px;
+    
+
+}
+    
+}
+
+
+   
+@media (max-width:550px){
+    .logo{
+        width:145px;
+        margin-left:70px;
+        padding:10px;
+        text-align:center;    
+    }
+    .navi{
+        width:190px;
+        margin-left:35px;
+        text-align:center;
+    }
+    .navi .u-max-full-width{
+        padding:5px;
+        width:40px;
+    }
+   
+    .menu{
+        float:right;
+        margin-right:55px;
+        cursor:pointer;
+    }
+    .sp_menu_toggle {
+        border-top:2px solid #887f69;
+         border-left:2px solid #887f69;
+          border-right:2px solid #887f69;
+         width:200px;
+         float:right;
+    }
+    .sp_menu_toggle li a{
+    display:block;
+    border-bottom:2px solid #887f69;
+    font-size:12px;
+    font-weight:700;
+    text-align:center;
+}
+.sp_menu_toggle li a:hover{
+    color:#b0b0b0;
+}
+   
+    
+    #header_in{
+        padding-top:10px;
+        padding-bottom:10px;
+        
+    }
+     .pc_navi {
+        display:none;
+    }
+    .new_items .u-full-width{
+        display:none;
+    }
+    .new_items .u-max-full-width{
+        padding:15px 80px 15px 80px;
+    }
+    #sarvice_area .u-full-width{
+        display:none;
+    }
+    #sarvice_area .popular_items .u-max-full-width{
+        padding:20px 60px 10px 60px;
+    }
+    #sarvice_area .shopping_guide .u-max-full-width{
+        padding:20px 55px 15px 55px;
+    }
+    .four{
+        width:49.2%;
+    }
+    .item_name{
+    font-size:10px;
+}
+p{
+    font-size:10px;
+} 
+#sarvice_area2 .shopping_guide .u-full-width{
+    display:none;
+}
+#sarvice_area2 .shopping_guide .u-max-full-width{
+    padding:20px 55px 15px 55px;
+}
+#sarvice_area3 .shopping_guide .u-full-width{
+    display:none;
+}
+#sarvice_area3 .shopping_guide .u-max-full-width{
+    padding:20px 55px 15px 55px;
+}
+
+
+.shopping-guide{
+    display:block;
+    flex-direction:column;
+}
+.six div{
+    font-size:14px;
+}
+.shikaku{
+    font-size:10px;
+}
+h5{
+    display:none;
+}
+.search{
+    margin-top:-10px;
+}
+#searchform{
+    
+    padding:20px 0 25px;
+    margin-left:20px;
+}
+#keywords{
+        width:195px;
+        
+    }
+    
+    #searchbtn{
+        margin-right:-10px;
+        padding-left:20px;
+        padding-right:5px;
+        
+    }
+    .pagelink{
+        background-position:265px;
+        margin-bottom:10px;
+    }
+    .categories{
+       background-position:260px;
+       margin-top:3px;
+   }
+  .cate{
+       background-position:265px;
+       padding:18px 0 12px 10px;
+  }
+  .aboutnakami{
+      padding-bottom:40px;
+  }
+  .aboutimg{
+      width:50%;
+  }
+  .omise{
+      width:50%;
+      float:right;
+      margin-top:-95px;
+  }
+  .morebtn{
+      width:50%;
+      float:right;
+      margin:-10px 0px 30px 10px;
+  }
+  .shopinfonakami{
+      padding-bottom:40px;
+  }
+  .shopinfoimg{
+      width:50%;
+  }
+  .copyright{
+      margin-top:-75px;
+  }
+  .pagetop{
+       margin-left:100px;
+       padding-top:10px;
+       
+   }
+   .list{
+       width:280px;
+       padding-left:5px;
+       padding-top:3px;
+      text-align:left;
+      
+   }
+.list li   {
+       font-size:12px;
+       display:inline;
+       
+   }
+
+   
+
+   .copy{
+       margin-top:-10px;
+       font-size:5px;
+       font-weight:100;
+       
+   }
+
+  .pankuzu_list ul{
+      padding:8px 0 6px 28px;
+      
+  }
+   .pankuzu_list ul li{
+       font-size:12px;
+   }
+   .cate_image{
+       display:none;
+   }
+   .saikin{
+       display:none;
+   }
+   .saikin_sp{
+       padding:10px 80px;
+   }
+   .categorie_name{
+       
+       background-position:265px;
+       
+   }
+  .product_name{
+     
+    
+    width:92%;
+    height:50px;
+    
+    margin-left:10px;
+    padding-top:10px;
+    
+}
+
+.img{
+     
+     flex-direction:column;
+}
+
+
+.display_img{
+    margin:0 10px;
+   
+}
+.display_img .u-max-full-width{
+    width:100%;
+}
+
+.list_img{
+    margin:0 10px;
+    width:auto;
+}
+.list_img .flex-container{
+     -webkit-flex-wrap:wrap;
+             flex-wrap:wrap;
+             display:block;
+             overflow:hidden;
+  
+}
+
+.list_img .flex-container  li{
+    width:17.6%;
+    float:left;
+    margin:0;
+    padding:3px;
+    display:block;
+}
+
+.list_img .flex-container li .u-max-full-width{
+     width:100%;
+     height:auto;
+    
+}
+
+
+
+
+
+
+
+.shouhinmei{
+    margin-bottom: 5px;
+    float:none;
+}
+.shouhinnumber{
+    float:none;
+    padding-top:0px;
+}
+
+.midashi{
+    
+    margin-left:10px;
+    width:92%;
+}
+.table{
+   
+    margin-left:10px;
+    width:92%;
+}
+
+
+.table .size{
+   
+    padding-left:10px;
+}
+
+
+
+.check{
+    margin-left:35%;
+    margin-bottom:-10px;
+    
+}
+.midashi2{
+    margin-left:10px;
+   
+    width:92%;
+    
+   
+}
+.price{
+    overflow:hidden;
+    padding:15px 0;
+}
+.cart{
+    float:none;
+    margin-left:5px;
+   position:relative; top:10px; left:22px;
+   overflow:hidden;
+}
+.senyen{
+    overflow:hidden;
+    margin-top:-42px;
+    margin-left:40%;
+    margin-right:5%;
+    padding:5px 0;
+}
+.yen{
+    font-style:oblique;
+    float:left;
+    color:#9d1a2d;
+    font-size:12px;
+}
+.sen{
+    font-style:oblique;
+    float:left;
+    color:#9d1a2d;
+    font-size:20px;
+    margin-top:-10px;
+   
+}
+.tax{
+    font-style:oblique;
+    font-size:12px;
+}
+.quantity{
+    margin-left:10px;
+    padding-bottom:-20px;
+    width:92%;
+}
+.number{
+    margin-left:97px;
+    
+
+}
+.setsumei{
+    
+    font-size:15px;
+    color:#887f69;
+    margin-left:10px;
+    
+}
+.shikaku2:before{
+    
+    font-size:25px;
+}
+.shikaku2{
+    font-size:15px;
+    margin:-20px 0 10px 10px;
+}
+.setsumei_text{
+    margin-left:10px;
+    font-size:13px;
+}
+
+.setsumeibun{
+    font-size:12px;
+    
+}
+
+.table .color{
+   padding-left:10px;
+}
+
+.list{
+       text-align:center;
+       margin-left:0;
+   }
+
+   .copy{
+       margin-top:10px;
+       margin-left:12%;
+      
+       
+   }
+
+
+
+
+
+
+
+}
+@media(min-width:550px){
+    #header_in{
+        padding-top:30px;
+        padding-bottom:10px;
+        
+    }
+    
+    .sp_navi{
+    display:none;
+        
+    }
+    .pc_navi{
+    padding-left:10px;
+    padding-top:15px;
+    }
+    
+    .pc_navi .u-max-full-width{
+        margin:3px;
+    }
+    
+    #cover_area .row{
+       
+    }
+   
+   .new_items .u-max-full-width{
+        display:none;
+    }
+    .popular_items .u-max-full-width{
+        display:none;
+    }
+     .shopping_guide .u-max-full-width{
+        display:none;
+    }
+    
+    #sidebar{
+        -webkit-align-items:flex-start;
+        align-items:flex-start;
+    }
+    .cate_image_sp{
+        display:none;
+    }
+    .saikin_sp{
+        display:none;
+    }
+    .saikin{
+        margin-bottom:10px;
+    }
+    
+}
