@@ -489,7 +489,8 @@ p {
     border-left: 2px solid #887f69;
     border-right: 2px solid #887f69;
     width: 200px;
-    float: right; }
+    float: right;
+    display: none; }
 
   .sp_menu_toggle li a {
     display: block;
