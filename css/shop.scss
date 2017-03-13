@@ -21,7 +21,14 @@ html{
     background-size:cover;
 }
 
-
+.five{
+        margin-bottom:20px;
+    }
+    .seven{
+        text-align:right;
+    }
+    
+    
 
 
 
@@ -538,14 +545,13 @@ p{
 
    
 @media (max-width:550px){
-    .five_columns_logo{
+    .five{
         text-align:center;
         margin-left:auto;
         margin-right:auto;
-         width:145px;
     }
     
-    .navi{
+    .seven{
         margin-left:auto;
         margin-right:auto;
         text-align:center;
