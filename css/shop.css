@@ -10,16 +10,6 @@ html {
 #cover_area {
   background-size: cover; }
 
-@media (min-width: 550px) {
-  .logo .u-max-full-width {
-    width: 145px;
-    margin-top: 0;
-    margin-bottom: 30px; }
-
-  .navi {
-    margin-top: 0;
-    margin-bottom: 10px;
-    float: right; } }
 .four {
   background-color: #ffffff;
   padding: 10px;
@@ -464,15 +454,15 @@ p {
     position: relative;
     margin-top: -35px; } }
 @media (max-width: 550px) {
-  .logo {
-    width: 145px;
-    margin-left: 70px;
-    padding: 10px;
-    text-align: center; }
+  .five_columns_logo {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 145px; }
 
   .navi {
-    width: 190px;
-    margin-left: 35px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center; }
 
   .navi .u-max-full-width {
@@ -480,8 +470,7 @@ p {
     width: 40px; }
 
   .menu {
-    float: right;
-    margin-right: 55px;
+    display: inline;
     cursor: pointer; }
 
   .sp_menu_toggle {

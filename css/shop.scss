@@ -22,19 +22,7 @@ html{
 }
 
 
-@media(min-width:550px){
-.logo .u-max-full-width{
-    width:145px;
-    margin-top:0;
-    margin-bottom:30px;
-    
-}
-.navi {
-    margin-top:0;
-    margin-bottom:10px;
-    float:right;
-}
-}
+
 
 
 .four{
@@ -550,27 +538,29 @@ p{
 
    
 @media (max-width:550px){
-    .logo{
-        width:145px;
-        margin-left:70px;
-        padding:10px;
-        text-align:center;    
+    .five_columns_logo{
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+         width:145px;
     }
+    
     .navi{
-        width:190px;
-        margin-left:35px;
+        margin-left:auto;
+        margin-right:auto;
         text-align:center;
     }
+    
     .navi .u-max-full-width{
         padding:5px;
         width:40px;
     }
    
     .menu{
-        float:right;
-        margin-right:55px;
+        display:inline;
         cursor:pointer;
     }
+    
     .sp_menu_toggle {
         border-top:2px solid #887f69;
          border-left:2px solid #887f69;
